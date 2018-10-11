@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using LoginRelease.Models;
 using LoginRelease.Models.AccountViewModels;
 using LoginRelease.Services;
+using Microsoft.CodeAnalysis.CSharp;
 
 namespace LoginRelease.Controllers
 {
@@ -25,17 +26,23 @@ namespace LoginRelease.Controllers
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
 
+        private RoleManager<IdentityRole> _roleManager;
+
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
-            ILogger<AccountController> logger)
+            ILogger<AccountController> logger,
+            RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _logger = logger;
+            _roleManager = roleManager;
         }
+
+       
 
         [TempData]
         public string ErrorMessage { get; set; }
@@ -224,6 +231,23 @@ namespace LoginRelease.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+//
+//                    if (!await _roleManager.RoleExistsAsync("Admin"))
+//                    {
+//                        var users = new IdentityRole("Admin");
+//                        var responsRole = await _roleManager.CreateAsync(users);
+//                        if (responsRole.Succeeded)
+//                        {
+//                            await _userManager.AddToRoleAsync(user,"Admin");
+//                            await _signInManager.SignInAsync(user, isPersistent: false);
+//                            _logger.LogInformation("User created a new account with password.");
+//                        }
+//                    }
+
+//                    await _userManager.AddToRoleAsync(user, "user");
+//                    await _signInManager.SignInAsync(user, isPersistent: false);
+//                    _logger.LogInformation("User created a new account with password.");
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

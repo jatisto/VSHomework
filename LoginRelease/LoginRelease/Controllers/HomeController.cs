@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using LoginRelease.Data;
 using Microsoft.AspNetCore.Mvc;
 using LoginRelease.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LoginRelease.Controllers
 {
@@ -23,7 +25,7 @@ namespace LoginRelease.Controllers
             return View();
         }
 
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Details()
         {
             ViewData["Message"] = "Your application description page.";
@@ -37,7 +39,7 @@ namespace LoginRelease.Controllers
 
             return View();
         }
-
+        [Authorize(Roles = "Admin, user")]
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
