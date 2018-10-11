@@ -232,17 +232,17 @@ namespace LoginRelease.Controllers
                 if (result.Succeeded)
                 {
 //
-//                    if (!await _roleManager.RoleExistsAsync("Admin"))
-//                    {
-//                        var users = new IdentityRole("Admin");
-//                        var responsRole = await _roleManager.CreateAsync(users);
-//                        if (responsRole.Succeeded)
-//                        {
-//                            await _userManager.AddToRoleAsync(user,"Admin");
-//                            await _signInManager.SignInAsync(user, isPersistent: false);
-//                            _logger.LogInformation("User created a new account with password.");
-//                        }
-//                    }
+                    if (!await _roleManager.RoleExistsAsync("Admin"))
+                    {
+                        var users = new IdentityRole("Admin");
+                        var responsRole = await _roleManager.CreateAsync(users);
+                        if (responsRole.Succeeded)
+                        {
+                            await _userManager.AddToRoleAsync(user,"Admin");
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                            _logger.LogInformation("User created a new account with password.");
+                        }
+                    }
 
 //                    await _userManager.AddToRoleAsync(user, "user");
 //                    await _signInManager.SignInAsync(user, isPersistent: false);
