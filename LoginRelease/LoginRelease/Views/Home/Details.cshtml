@@ -11,20 +11,23 @@
 @* </p> *@
 <table class="table">
     <thead>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.UserName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Email)
-        </th>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
 
-        <th>
-            @Html.DisplayNameFor(model => model.PhoneNumber)
-        </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                LockoutStatus
+            </th>
 
-        <th></th>
-    </tr>
+            <th></th>
+        </tr>
     </thead>
     <tbody>
     @foreach (var item in Model)
@@ -33,15 +36,21 @@
             <td>
                 @Html.DisplayFor(modelItem => item.UserName)
             </td>
-           
+
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
-            
+
             <td>
                 @Html.DisplayFor(modelItem => item.PhoneNumber)
             </td>
-            
+
+            <td>
+                @Html.DisplayFor(modelItem => item.LockoutEnabled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LockoutEnd)
+            </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

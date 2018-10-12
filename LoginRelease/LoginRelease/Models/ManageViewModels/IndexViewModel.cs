@@ -12,9 +12,8 @@ namespace LoginRelease.Models.ManageViewModels
 
         public bool IsEmailConfirmed { get; set; }
 
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; }
+
+        [Required] [EmailAddress] public string Email { get; set; }
 
         [Phone]
         [Display(Name = "Phone number")]

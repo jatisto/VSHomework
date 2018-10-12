@@ -9,6 +9,6 @@ namespace LoginRelease.Models
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
-//        public string NameLogin { get; set; }
+        public bool? IsEnable { get; set; }
     }
 }

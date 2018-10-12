@@ -14,18 +14,19 @@ namespace LoginRelease.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, ApplicationDbContext context)
-        {
-            _userManager = userManager;
-            _roleManager = roleManager;
-            _context = context;
-        }
+       
 
         private readonly UserManager<ApplicationUser> _userManager;
         private RoleManager<IdentityRole> _roleManager;
-        private ApplicationDbContext _context;
+        private ApplicationDbContext _applicationDbContext;
 
-       
+
+        public HomeController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, ApplicationDbContext applicationDbContext)
+        {
+            _userManager = userManager;
+            _roleManager = roleManager;
+            _applicationDbContext = applicationDbContext;
+        }
 
         public IActionResult Index()
         {
@@ -33,12 +34,31 @@ namespace LoginRelease.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        public IActionResult Details()
+        public async Task<IActionResult> Details()
         {
             ViewData["Message"] = "Your application description page.";
+            var users = _applicationDbContext.Users.ToList();
+            
+//            foreach (ApplicationUser applicationUser in users)
+//            {
+//                if (!applicationUser.IsEnable)
+//                {
+//                    await _userManager.SetLockoutEnabledAsync(applicationUser, true);
+//                    applicationUser.LockoutEnabled = true;
+//                    applicationUser.LockoutEnd = DateTimeOffset.Now;
+//                }
+//                else
+//                {
+//                    await _userManager.SetLockoutEnabledAsync(applicationUser, false);
+//                    applicationUser.LockoutEnabled = false;
+//                    applicationUser.LockoutEnd = DateTimeOffset.Now;
+//                }
+//                
+//            }
 
-            return View(_context.Users.ToList());
+            return View(users);
         }
+
 
         [Authorize(Roles = "Admin, manager")]
         public IActionResult About()
@@ -118,6 +138,14 @@ namespace LoginRelease.Controllers
 //            return RedirectToAction("Index", "Home");
 //        }
 
-       
+
+        public IActionResult Edit(UserManager<ApplicationUser> userManager)
+        {
+            if (!userManager.SupportsUserLockout)
+            {
+                
+            }
+            throw new NotImplementedException();
+        }
     }
 }
