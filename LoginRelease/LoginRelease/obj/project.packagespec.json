@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\evgen\\Git_Folder\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
+    "projectUniqueName": "C:\\home\\Git_work\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
     "projectName": "LoginRelease",
-    "projectPath": "C:\\Users\\evgen\\Git_Folder\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
-    "outputPath": "C:\\Users\\evgen\\Git_Folder\\VSHomework\\LoginRelease\\LoginRelease\\obj\\",
+    "projectPath": "C:\\home\\Git_work\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
+    "outputPath": "C:\\home\\Git_work\\VSHomework\\LoginRelease\\LoginRelease\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc1109d7-0650-4da5-9c74-7001944cd1b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LoginRelease/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LoginRelease/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LoginRelease/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LoginRelease/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LoginRelease/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LoginRelease/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/LoginRelease/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.csprojResolveAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/Debug/netcoreapp2.0/LoginRelease.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/LoginRelease.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/LoginRelease.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/LoginRelease.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/LoginRelease.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/LoginRelease.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/LoginRelease.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginRelease/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginRelease/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DESKTOP-A04P40V" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DESKTOP-A04P40V" type="feb32156:DbDataSourceImpl" />
+        <item name="aspnet-oginRelease: database" type="bdf80c8a:MssqlImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DESKTOP-A04P40V" type="feb32156:DbDataSourceImpl" />
+        <item name="aspnet-oginRelease: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1982650063">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="aspnetroles" value="1" />
+          <entry key="aspnetusers" value="1" />
+          <entry key="cs" value="1" />
+          <entry key="json" value="1" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="1" />
+          <entry key="Database Element" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginRelease/Controllers/AccountController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3349">
+              <caret line="212" selection-start-line="212" selection-end-line="212" />
+              <folding>
+                <marker date="1539315599218" expanded="false" signature="6:532" ph="..." />
+                <marker date="1539315599218" expanded="true" signature="568:18294" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="671:18292" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="1251:1465" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="1659:1914" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="2088:3409" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="2181:3298" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="2212:2374" ph="/* This doesn't count login failures towards account lockout ... */" />
+                <marker date="1539315599218" expanded="true" signature="2555:2709" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="2755:2895" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="2935:3101" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="3122:3284" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="3549:4055" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="3758:3885" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="4260:5583" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="4307:4371" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="4485:4627" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="4910:5083" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="5124:5300" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="5317:5573" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="5715:6136" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="5923:6050" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="6342:7580" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="6389:6453" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="6567:6694" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="6903:7088" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="7124:7300" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="7317:7570" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="7663:7710" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="7817:7911" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="8091:10083" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="8184:9972" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="8415:9923" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="8506:9060" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="8723:9038" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="9062:9306" ph="/* await _userManager.AddToRoleAsync(user, &quot;user&quot;); ... */" />
+                <marker date="1539315599218" expanded="true" signature="10188:10388" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="10553:10904" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="11063:12485" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="11110:11273" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="11376:11460" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="11748:11927" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="11963:12049" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="12066:12475" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="12687:13920" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="12733:13807" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="12945:13098" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="13299:13758" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="13434:13740" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="14046:14581" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="14104:14211" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="14306:14426" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="14671:14718" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="14885:16054" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="14931:15943" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="15109:15311" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="15329:15488" ph="/* For more information on how to enable account confirmation and password reset please ... */" />
+                <marker date="1539315599218" expanded="true" signature="16156:16203" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="16310:16583" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="16350:16473" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="16748:17431" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="16795:16859" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="16962:17127" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="17259:17363" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="17532:17579" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="17643:17690" ph="{...}" />
+                <marker date="1539315599218" expanded="false" signature="17700:18286" ph="Helpers" />
+                <marker date="1539315599218" expanded="true" signature="17770:17942" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="17829:17932" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="18007:18266" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="18060:18132" ph="{...}" />
+                <marker date="1539315599218" expanded="true" signature="18149:18256" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LoginRelease/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LoginRelease/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="30" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LoginRelease" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LoginRelease" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LoginRelease" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LoginRelease" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LoginRelease" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/LoginRelease/bin/Debug/netcoreapp2.0/LoginRelease.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LoginRelease" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:58852/" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="1" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LoginRelease/LoginRelease.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser start="true" url="http://localhost:58852/" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc1109d7-0650-4da5-9c74-7001944cd1b8" name="Default Changelist" comment="" />
+      <created>1539315663408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539315663408</updated>
+      <workItem from="1539315667281" duration="1359000" />
+      <workItem from="1539326160394" duration="871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2230000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Tail" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32939914" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Quokka" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="REST Client" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="18" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b87b7a5a-e134-4277-a163-b6d15199d8c7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://b87b7a5a-e134-4277-a163-b6d15199d8c7/database/aspnet-oginrelease/schema/dbo/table/aspnetusers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b87b7a5a-e134-4277-a163-b6d15199d8c7/database/aspnet-oginrelease/schema/dbo/table/aspnetroles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginRelease/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+          <folding>
+            <marker date="1539315599218" expanded="false" signature="6:532" ph="..." />
+            <marker date="1539315599218" expanded="true" signature="568:18294" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="671:18292" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="1251:1465" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="1659:1914" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="2088:3409" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="2181:3298" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="2212:2374" ph="/* This doesn't count login failures towards account lockout ... */" />
+            <marker date="1539315599218" expanded="true" signature="2555:2709" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="2755:2895" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="2935:3101" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="3122:3284" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="3549:4055" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="3758:3885" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="4260:5583" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="4307:4371" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="4485:4627" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="4910:5083" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="5124:5300" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="5317:5573" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="5715:6136" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="5923:6050" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="6342:7580" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="6389:6453" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="6567:6694" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="6903:7088" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="7124:7300" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="7317:7570" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="7663:7710" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="7817:7911" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="8091:10083" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="8184:9972" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="8415:9923" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="8506:9060" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="8723:9038" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="9062:9306" ph="/* await _userManager.AddToRoleAsync(user, &quot;user&quot;); ... */" />
+            <marker date="1539315599218" expanded="true" signature="10188:10388" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="10553:10904" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="11063:12485" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="11110:11273" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="11376:11460" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="11748:11927" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="11963:12049" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="12066:12475" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="12687:13920" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="12733:13807" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="12945:13098" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="13299:13758" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="13434:13740" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="14046:14581" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="14104:14211" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="14306:14426" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="14671:14718" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="14885:16054" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="14931:15943" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="15109:15311" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="15329:15488" ph="/* For more information on how to enable account confirmation and password reset please ... */" />
+            <marker date="1539315599218" expanded="true" signature="16156:16203" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="16310:16583" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="16350:16473" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="16748:17431" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="16795:16859" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="16962:17127" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="17259:17363" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="17532:17579" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="17643:17690" ph="{...}" />
+            <marker date="1539315599218" expanded="false" signature="17700:18286" ph="Helpers" />
+            <marker date="1539315599218" expanded="true" signature="17770:17942" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="17829:17932" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="18007:18266" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="18060:18132" ph="{...}" />
+            <marker date="1539315599218" expanded="true" signature="18149:18256" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginRelease/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

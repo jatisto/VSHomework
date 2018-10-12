@@ -20,6 +20,11 @@ namespace LoginRelease.Data
                 var users = new IdentityRole("user");
                 var responsRole = await roleManager.CreateAsync(users);
             }
+            if (!await roleManager.RoleExistsAsync("manager"))
+            {
+                var users = new IdentityRole("manager");
+                var responsRole = await roleManager.CreateAsync(users);
+            }
         }
     }
 }

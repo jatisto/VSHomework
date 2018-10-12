@@ -3,7 +3,6 @@ C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\bin\Debug\netcoreapp2.0\Lo
 C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\bin\Debug\netcoreapp2.0\LoginRelease.runtimeconfig.dev.json
 C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\bin\Debug\netcoreapp2.0\LoginRelease.dll
 C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\bin\Debug\netcoreapp2.0\LoginRelease.pdb
-C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.csprojResolveAssemblyReference.cache
 C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.csproj.CoreCompileInputs.cache
 C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.AssemblyInfoInputs.cache
@@ -22,3 +21,4 @@ C:\Users\evgen\Git_Folder\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcore
 C:\Users\evgen\Git_Folder\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.AssemblyInfo.cs
 C:\Users\evgen\Git_Folder\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.dll
 C:\Users\evgen\Git_Folder\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.pdb
+C:\home\Git_work\VSHomework\LoginRelease\LoginRelease\obj\Debug\netcoreapp2.0\LoginRelease.csprojResolveAssemblyReference.cache

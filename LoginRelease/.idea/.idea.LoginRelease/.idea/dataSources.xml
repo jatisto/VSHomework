@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="DESKTOP-A04P40V" uuid="b87b7a5a-e134-4277-a163-b6d15199d8c7">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://DESKTOP-A04P40V:49718;instance=SQLEXPRESS</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+        <property name="appName" value="DataGrip" />
+        <property name="USENTLMV2" value="true" />
+        <property name="DOMAIN" value="DESKTOP-A04P40V" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
