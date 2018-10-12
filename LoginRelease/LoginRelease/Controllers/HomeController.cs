@@ -61,62 +61,62 @@ namespace LoginRelease.Controllers
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
 
-        public async Task<ActionResult> Edit()
-        {
-            var user = await _userManager.FindByEmailAsync(User.Identity.Name);
-            if (user != null)
-            {
-                EditViewModel model = new EditViewModel {Id = user.Id, Name = user.UserName};
-                return View(model);
-            }
-            return RedirectToAction("Login", "Account");
-        }
-
-        [HttpPost]
-        public async Task<ActionResult> Edit(EditViewModel model)
-        {
-            ApplicationUser user = await _userManager.FindByEmailAsync(User.Identity.Name);
-            if (user != null)
-            {
-                IdentityResult result = await _userManager.UpdateAsync(user);
-                if (result.Succeeded)
-                {
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Что-то пошло не так");
-                }
-            }
-            else
-            {
-                ModelState.AddModelError("", "Пользователь не найден");
-            }
-
-            return View(model);
-        }
-
-        [HttpGet]
-        public ActionResult Delete()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [ActionName("Delete")]
-        public async Task<ActionResult> DeleteConfirmed()
-        {
-            var users = await _userManager.FindByEmailAsync(User.Identity.Name);
-            if (users != null)
-            {
-                IdentityResult result = await _userManager.DeleteAsync(users);
-                if (result.Succeeded)
-                {
-                    return RedirectToAction("Logout", "Account");
-                }
-            }
-            return RedirectToAction("Index", "Home");
-        }
+//        public async Task<ActionResult> Edit()
+//        {
+//            var user = await _userManager.FindByEmailAsync(User.Identity.Name);
+//            if (user != null)
+//            {
+//                EditViewModel model = new EditViewModel {Id = user.Id, Name = user.UserName};
+//                return View(model);
+//            }
+//            return RedirectToAction("Login", "Account");
+//        }
+//
+//        [HttpPost]
+//        public async Task<ActionResult> Edit(EditViewModel model)
+//        {
+//            ApplicationUser user = await _userManager.FindByEmailAsync(User.Identity.Name);
+//            if (user != null)
+//            {
+//                IdentityResult result = await _userManager.UpdateAsync(user);
+//                if (result.Succeeded)
+//                {
+//                    return RedirectToAction("Index", "Home");
+//                }
+//                else
+//                {
+//                    ModelState.AddModelError("", "Что-то пошло не так");
+//                }
+//            }
+//            else
+//            {
+//                ModelState.AddModelError("", "Пользователь не найден");
+//            }
+//
+//            return View(model);
+//        }
+//
+//        [HttpGet]
+//        public ActionResult Delete()
+//        {
+//            return View();
+//        }
+//
+//        [HttpPost]
+//        [ActionName("Delete")]
+//        public async Task<ActionResult> DeleteConfirmed()
+//        {
+//            var users = await _userManager.FindByEmailAsync(User.Identity.Name);
+//            if (users != null)
+//            {
+//                IdentityResult result = await _userManager.DeleteAsync(users);
+//                if (result.Succeeded)
+//                {
+//                    return RedirectToAction("Logout", "Account");
+//                }
+//            }
+//            return RedirectToAction("Index", "Home");
+//        }
 
        
     }
