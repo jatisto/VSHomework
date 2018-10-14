@@ -24,5 +24,9 @@ namespace LoginRelease.Data
         }
 
         public DbSet<LoginRelease.Models.ApplicationUser> ApplicationUser { get; set; }
+
+        public DbSet<LoginRelease.Models.RoleViewModel> RoleViewModel { get; set; }
+
+        public DbSet<LoginRelease.Models.EditViewModel> EditViewModel { get; set; }
     }
 }

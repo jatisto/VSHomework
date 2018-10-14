@@ -13125,23 +13125,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joni\\.nuget\\packages\\": {},
+    "C:\\Users\\evgen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\home\\Git_work\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
+      "projectUniqueName": "C:\\Users\\evgen\\GitFolderHome\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
       "projectName": "LoginRelease",
-      "projectPath": "C:\\home\\Git_work\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
-      "packagesPath": "C:\\Users\\Joni\\.nuget\\packages\\",
-      "outputPath": "C:\\home\\Git_work\\VSHomework\\LoginRelease\\LoginRelease\\obj\\",
+      "projectPath": "C:\\Users\\evgen\\GitFolderHome\\VSHomework\\LoginRelease\\LoginRelease\\LoginRelease.csproj",
+      "packagesPath": "C:\\Users\\evgen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\evgen\\GitFolderHome\\VSHomework\\LoginRelease\\LoginRelease\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
