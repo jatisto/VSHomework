@@ -20,5 +20,6 @@ namespace LoginRelease.Models.ManageViewModels
         public string PhoneNumber { get; set; }
 
         public string StatusMessage { get; set; }
+
     }
 }

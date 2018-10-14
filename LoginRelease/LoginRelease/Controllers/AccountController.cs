@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using LoginRelease.Data.Migrations;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -64,6 +65,7 @@ namespace LoginRelease.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             if (ModelState.IsValid)
             {
+                var user = new ApplicationUser {IsEnable = true };
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe,
@@ -84,11 +86,20 @@ namespace LoginRelease.Controllers
                     _logger.LogWarning("User account locked out.");
                     return RedirectToAction(nameof(Lockout));
                 }
+                // Вроде сделал поле IsEnable в ApplecationUser, вроде сделал проверку
+                // но блокировка не работатет. Если можно распиши как правельно нужно было сделать.
+
+                if (user.IsEnable == false)
+                {
+                    ModelState.AddModelError(string.Empty, "Вас заблокировали.");
+                    return View(nameof(Lockout));
+                }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                    return View(model);
+                    _logger.LogWarning("User account locked out.");
+                    return RedirectToAction(nameof(Lockout));
                 }
+
             }
 
             // If we got this far, something failed, redisplay form
@@ -180,7 +191,6 @@ namespace LoginRelease.Controllers
             {
                 return View(model);
             }
-
             var user = await _signInManager.GetTwoFactorAuthenticationUserAsync();
             if (user == null)
             {

@@ -11,9 +11,10 @@ using System;
 namespace LoginRelease.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181014081855_deletenullebal")]
+    partial class deletenullebal
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,7 +36,7 @@ namespace LoginRelease.Data.Migrations
 
                     b.Property<bool>("EmailConfirmed");
 
-                    b.Property<bool?>("IsEnable");
+                    b.Property<bool>("IsEnable");
 
                     b.Property<bool>("LockoutEnabled");
 
@@ -78,13 +79,7 @@ namespace LoginRelease.Data.Migrations
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Email");
-
-                    b.Property<bool?>("IsEnable");
-
                     b.Property<string>("Name");
-
-                    b.Property<string>("Password");
 
                     b.HasKey("Id");
 

@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using LoginRelease.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace LoginRelease.Controllers
 {
@@ -81,71 +82,66 @@ namespace LoginRelease.Controllers
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
 
-//        public async Task<ActionResult> Edit()
-//        {
-//            var user = await _userManager.FindByEmailAsync(User.Identity.Name);
-//            if (user != null)
-//            {
-//                EditViewModel model = new EditViewModel {Id = user.Id, Name = user.UserName};
-//                return View(model);
-//            }
-//            return RedirectToAction("Login", "Account");
-//        }
-//
-//        [HttpPost]
-//        public async Task<ActionResult> Edit(EditViewModel model)
-//        {
-//            ApplicationUser user = await _userManager.FindByEmailAsync(User.Identity.Name);
-//            if (user != null)
-//            {
-//                IdentityResult result = await _userManager.UpdateAsync(user);
-//                if (result.Succeeded)
-//                {
-//                    return RedirectToAction("Index", "Home");
-//                }
-//                else
-//                {
-//                    ModelState.AddModelError("", "Что-то пошло не так");
-//                }
-//            }
-//            else
-//            {
-//                ModelState.AddModelError("", "Пользователь не найден");
-//            }
-//
-//            return View(model);
-//        }
-//
-//        [HttpGet]
-//        public ActionResult Delete()
-//        {
-//            return View();
-//        }
-//
-//        [HttpPost]
-//        [ActionName("Delete")]
-//        public async Task<ActionResult> DeleteConfirmed()
-//        {
-//            var users = await _userManager.FindByEmailAsync(User.Identity.Name);
-//            if (users != null)
-//            {
-//                IdentityResult result = await _userManager.DeleteAsync(users);
-//                if (result.Succeeded)
-//                {
-//                    return RedirectToAction("Logout", "Account");
-//                }
-//            }
-//            return RedirectToAction("Index", "Home");
-//        }
 
+        //не могу доделать метод Edit можешь расписать по подробней его.
+        //При изменении роли работает а, как User-а ретактировать не получаеться.
 
-        public IActionResult Edit(UserManager<ApplicationUser> userManager)
+        #region Edit not Work
+
+        //public async Task<ActionResult> Edit()
+        //{
+        //    var user = await _userManager.FindByNameAsync(User.Identity.Name);
+        //    if (user != null)
+        //    {
+        //        EditViewModel model = new EditViewModel { Id = user.Id, Name = user.UserName, Email = user.Email, Password = user.PasswordHash, IsEnable = user.IsEnable};
+        //        return View(model);
+        //    }
+        //    return RedirectToAction("Login", "Account");
+        //}
+
+        //[HttpPost]
+        //public async Task<ActionResult> Edit(EditViewModel model)
+        //{
+        //    ApplicationUser user = await _userManager.FindByEmailAsync(User.Identity.Name);
+        //    if (user != null)
+        //    {
+        //        IdentityResult result = await _userManager.UpdateAsync(user);
+        //        if (result.Succeeded)
+        //        {
+        //            return RedirectToAction("Index", "Home");
+        //        }
+        //        else
+        //        {
+        //            ModelState.AddModelError("", "Что-то пошло не так");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        ModelState.AddModelError("", "Пользователь не найден");
+        //    }
+
+        //    return View(model);
+        //}
+
+        #endregion
+
+        public async Task<IActionResult> Edit(string id)
         {
-            if (!userManager.SupportsUserLockout)
+            if (id != null)
             {
-                
+                var users = await _applicationDbContext.EditViewModel.FirstOrDefaultAsync(u => u.Id == id);
+                if (users != null)
+                    return View("Details");
             }
-            throw new NotImplementedException();
+            return NotFound();
         }
+        [HttpPost]
+        public async Task<IActionResult> Edit(EditViewModel editViewModel)
+        {
+            _applicationDbContext.EditViewModel.Update(editViewModel);
+            await _applicationDbContext.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
     }
 }
